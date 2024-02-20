@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signin"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="58dp"
+        android:text="Welcome to TradeEazy"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="55dp"
+        android:gravity="center">
+
+    </TextView>
+
+
+    <EditText
+
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/signin"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#ffbe0b"
+        android:drawableLeft="@drawable/baseline_person_outline_24"
+        android:drawablePadding="28dp"
+        android:hint="Username"
+        android:padding="10dp"
+        android:textColor="#5000BF"
+        android:textColorHint="#5000BF"
+        android:textSize="25dp"
+        android:textStyle="bold"/>
+
+    <EditText
+
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="#ffbe0b"
+        android:drawableLeft="@drawable/password"
+        android:drawablePadding="30dp"
+        android:hint="Password"
+        android:padding="10dp"
+        android:textColor="#5000BF"
+        android:textColorHint="#5000BF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:inputType="textPassword"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        app:backgroundTint="#ffbe0b"
+        android:text="LOGIN"
+        android:textSize="30dp" />
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotpass"
+        android:layout_below="@id/loginbtn"
+        android:text="Forgot password?"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/others"
+        android:text="Or Sign In With"
+        android:layout_above="@id/loginicons"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/loginicons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_marginBottom="30dp">
+
+    <ImageView
+
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:id="@+id/google_btn"
+        android:src="@drawable/google"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/facebook"
+        android:id="@+id/fb_btn"
+        />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/twitter"/>
+
+    </LinearLayout>
+</RelativeLayout>
