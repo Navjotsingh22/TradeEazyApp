@@ -2,8 +2,19 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.TradeEazy" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <!-- Remove any icon tinting attributes -->
+        <!-- <item name="iconTint">@null</item> -->
     </style>
 
     <style name="Theme.TradeEazy" parent="Base.Theme.TradeEazy" />
+
+    <style name="Theme.TradeEazy.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.TradeEazy.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.TradeEazy.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

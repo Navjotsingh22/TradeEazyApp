@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/playlist"
+            android:layout_marginTop="20dp"
+            android:text="@string/video_playlist"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:fontFamily="@font/cooper"/>
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/video1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="ZCFkWDdmXG8"
+            android:layout_margin="20dp"/>
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/video2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:videoId="_YVQN6_nkfs"
+            android:layout_margin="20dp"
+            />
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/video3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:videoId="eynxyoKgpng"/>
+
+        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+            android:id="@+id/video4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            app:videoId="2ByOXdddmDM"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -4,5 +4,27 @@
     <string name="facebook_app_id">280722378199237</string>
     <string name="fb_login_protocol_scheme">fb280722378199237</string>
     <string name="facebook_client_token">56789</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="home">Home</string>
+    <string name="candlestick">Candlesticks</string>
+    <string name="free_material">Free Material</string>
+    <string name="video_lectures">Video Lectures</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="contact_form">Contact Form</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="email_address">Email Address</string>
+    <string name="subject">Subject</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="submit">Submit</string>
+    <string name="navjot_singh_nav88901_gmail_com">© Navjot Singh (nav88901@gmail.com)</string>
+    <string name="welcome_to_tradeeazy">Welcome to TradeEazy</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="register">Register</string>
+    <string name="or_sign_in_with">Or Sign In With</string>
+    <string name="video_playlist">Video Playlist</string>
+    <string name="yahoo_finance_livestream">Yahoo Finance Livestream</string>
+
 
 </resources>

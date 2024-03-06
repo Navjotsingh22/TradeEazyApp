@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fdf0d5"
+    android:layout_height="match_parent">
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/bookview"
+        android:layout_width="420dp"
+        android:layout_height="540dp"
+        app:layout_constraintBottom_toTopOf="@+id/book1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/book1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:backgroundTint="#C1121F"
+        android:text="Rich Dad Poor Dad"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/bookview"
+        android:textAppearance="@style/NavigationViewTextStyle"/>
+
+    <Button
+        android:id="@+id/book2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+          app:backgroundTint="#C1121F"
+        android:text="Price Action Trading Guide"
+        android:textSize="12sp"
+        app:layout_constraintTop_toBottomOf="@id/bookview"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAppearance="@style/NavigationViewTextStyle"/>
+
+
+    <Button
+        android:id="@+id/book3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Quantitative Trading"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+          app:backgroundTint="#C1121F"
+        app:layout_constraintTop_toBottomOf="@id/book1"
+        android:textAppearance="@style/NavigationViewTextStyle"/>
+
+    <Button
+        android:id="@+id/book4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Guide To DayTrading"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+          app:backgroundTint="#C1121F"
+        app:layout_constraintTop_toBottomOf="@id/book2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAppearance="@style/NavigationViewTextStyle"/>
+
+    <Button
+        android:id="@+id/book5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Options Made Easy"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+          app:backgroundTint="#C1121F"
+        app:layout_constraintTop_toBottomOf="@id/book3"
+        android:textAppearance="@style/NavigationViewTextStyle"
+        />
+
+    <Button
+        android:id="@+id/book6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="New Trader Rich Trader"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+          app:backgroundTint="#C1121F"
+        app:layout_constraintTop_toBottomOf="@id/book4"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAppearance="@style/NavigationViewTextStyle"/>
+
+    <Button
+        android:id="@+id/book7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Option Trading Strategies"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+          app:backgroundTint="#C1121F"
+        app:layout_constraintTop_toBottomOf="@id/book5"
+        android:textAppearance="@style/NavigationViewTextStyle"/>
+      />
+
+    <Button
+        android:id="@+id/book8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Guide to Trading"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+          app:backgroundTint="#C1121F"
+        app:layout_constraintTop_toBottomOf="@id/book6"
+        android:textAppearance="@style/NavigationViewTextStyle"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/book9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="The New Trading for a Living"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+          app:backgroundTint="#C1121F"
+        app:layout_constraintTop_toBottomOf="@id/book7"
+        android:textAppearance="@style/NavigationViewTextStyle"
+      />
+
+    <Button
+        android:id="@+id/book10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+          app:backgroundTint="#C1121F"
+        app:layout_constraintTop_toBottomOf="@id/book8"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAppearance="@style/NavigationViewTextStyle"
+        android:text="BBT TradeBook"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

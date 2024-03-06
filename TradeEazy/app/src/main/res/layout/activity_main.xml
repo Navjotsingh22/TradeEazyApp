@@ -8,59 +8,66 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/mymail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/signin"
-        android:layout_marginStart="58dp"
-        android:layout_marginTop="58dp"
-        android:layout_marginEnd="58dp"
-        android:layout_marginBottom="58dp"
-        android:text="Welcome to TradeEazy"
+        android:layout_marginLeft="310dp"
+        android:fontFamily="@font/times"
+        android:gravity="center"
+        android:text="@string/navjot_singh_nav88901_gmail_com"
         android:textColor="@color/white"
-        android:textStyle="bold"
-        android:textSize="55dp"
-        android:gravity="center">
+        android:textSize="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tradeeazy"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="30dp"
+        android:text="@string/welcome_to_tradeeazy"
+        android:textColor="@color/white"
+        android:textSize="85dp"
+        android:gravity="center"
+        android:fontFamily="@font/dash">
 
     </TextView>
 
 
     <EditText
 
-        android:id="@+id/username"
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/signin"
-        android:layout_margin="10dp"
+        android:layout_below="@id/tradeeazy"
         android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:background="#ffbe0b"
-        android:drawableLeft="@drawable/baseline_person_outline_24"
-        android:drawablePadding="28dp"
-        android:hint="Username"
+        android:layout_marginBottom="10dp"
+        android:background="#fff490"
+        android:drawableStart="@drawable/baseline_person_outline_24"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/times"
+        android:hint="@string/email"
         android:padding="10dp"
-        android:textColor="#5000BF"
-        android:textColorHint="#5000BF"
-        android:textSize="25dp"
-        android:textStyle="bold"/>
+        android:textSize="20dp" />
 
     <EditText
 
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/username"
-        android:layout_margin="10dp"
+        android:layout_below="@id/email"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:background="#ffbe0b"
-        android:drawableLeft="@drawable/password"
-        android:drawablePadding="30dp"
-        android:hint="Password"
+        android:background="#fff490"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="10dp"
+        android:hint="@string/password"
         android:padding="10dp"
-        android:textColor="#5000BF"
-        android:textColorHint="#5000BF"
-        android:textSize="25dp"
-        android:textStyle="bold"
+        android:textSize="20dp"
+        android:fontFamily="@font/times"
         android:inputType="textPassword"/>
 
     <com.google.android.material.button.MaterialButton
@@ -73,30 +80,33 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        app:backgroundTint="#ffbe0b"
-        android:text="LOGIN"
-        android:textSize="30dp" />
+        app:backgroundTint="#ffc614"
+        android:fontFamily="@font/cooper"
+        android:text="@string/login"
+        android:textSize="30dp"
+       />
 
+    
 
-    <TextView
-
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/registerbtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/forgotpass"
-        android:layout_below="@id/loginbtn"
-        android:text="Forgot password?"
-        android:textColor="@color/white"
-        android:textSize="20dp"
+        android:layout_above="@id/others"
         android:layout_centerHorizontal="true"
-        android:layout_margin="10dp"/>
+        app:backgroundTint="#ffc614"
+        android:fontFamily="@font/cooper"
+        android:text="@string/register"
+        android:textSize="29dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/others"
-        android:text="Or Sign In With"
+        android:text="@string/or_sign_in_with"
         android:layout_above="@id/loginicons"
         android:textSize="20dp"
+        android:fontFamily="@font/cooper"
         android:layout_centerHorizontal="true"
         android:textColor="@color/white"
         android:layout_margin="10dp"/>
@@ -107,28 +117,24 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:gravity="center"
-        android:layout_marginBottom="30dp">
+        android:layout_marginBottom="25dp">
 
-    <ImageView
 
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_margin="20dp"
-        android:id="@+id/google_btn"
-        android:src="@drawable/google"/>
+        <ImageView
 
-    <ImageView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_margin="20dp"
-        android:src="@drawable/facebook"
-        android:id="@+id/fb_btn"
-        />
-    <ImageView
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_margin="20dp"
-        android:src="@drawable/twitter"/>
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:id="@+id/g_btn"
+            android:src="@drawable/google"/>
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/facebook"
+            android:id="@+id/fb_btn"
+            />
 
     </LinearLayout>
 </RelativeLayout>

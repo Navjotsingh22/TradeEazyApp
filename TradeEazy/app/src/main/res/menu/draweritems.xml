@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <item
+            android:icon="@drawable/home"
+            android:id="@+id/home"
+            android:title="@string/home"/>
+
+        <item
+            android:icon="@drawable/candlestick"
+            android:id="@+id/candlestick"
+            android:title="@string/candlestick" />
+
+        <item
+            android:icon="@drawable/free"
+            android:id="@+id/free"
+            android:title="@string/free_material"/>
+
+        <item
+            android:icon="@drawable/lecture"
+            android:id="@+id/lecture"
+            android:title="@string/video_lectures" />
+
+        <item
+            android:icon="@drawable/support"
+            android:id="@+id/contact"
+            android:title="@string/contact_us"/>
+
+        <item
+            android:icon="@drawable/signout"
+            android:id="@+id/signoutbtn"
+            android:title="Sign Out"
+           />
+    </menu>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#8338ec">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="@color/black">
+
+        <ImageButton
+            android:id="@+id/buttondrawer"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:backgroundTint="@color/black"
+            android:src="@drawable/menu"
+            android:layout_marginRight="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/dash"
+            android:gravity="center"
+            android:text="TradeEazy"
+            android:textColor="@color/white"
+            android:textSize="85dp"
+            >
+
+        </TextView>
+
+    </Toolbar>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/cooper"
+        android:gravity="center"
+        android:text="@string/yahoo_finance_livestream"
+        android:textColor="#E6E5E5"
+        android:textSize="40dp"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/stream"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        app:videoId="OAHHA27td-A"
+        app:autoPlay="true"
+        android:layout_marginTop="50dp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "196362261492",
+    "project_id": "tradeeazy-29348",
+    "storage_bucket": "tradeeazy-29348.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196362261492:android:3164f2e284b8c51bde5fa1",
+        "android_client_info": {
+          "package_name": "com.example.tradeeazy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196362261492-16ggije3vjunbtr370meskv021ofo7ct.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tradeeazy",
+            "certificate_hash": "a9cc3b2c59d94deab57197c39fe68752862ff615"
+          }
+        },
+        {
+          "client_id": "196362261492-7coeuppaoie20ifvs7fgl4nq78vobc7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtz2QweItZNh2VKReqmGbkMWfUmWo7bGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "196362261492-7coeuppaoie20ifvs7fgl4nq78vobc7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
