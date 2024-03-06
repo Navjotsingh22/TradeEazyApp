@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun signInWithFacebook() {
-        // Log out the user from Facebook to ensure they are prompted to log in again
+    
         LoginManager.getInstance().logOut()
 
         // Proceed with the sign-in process
@@ -159,7 +159,7 @@ class MainActivity : AppCompatActivity() {
     private fun updateUI(user: FirebaseUser?) {
         if (user != null) {
             startActivity(Intent(this, WelcomeActivity::class.java))
-            finish() // Optional: to prevent the user from navigating back to the login screen using the back button
+            finish() 
         }
     }
 
