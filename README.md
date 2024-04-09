@@ -49,5 +49,7 @@ Enables users to send inquiries by redirecting them to their default mail applic
 5. Sign Out
 Provides a simple option for users to exit the app.
 
+6. For the final touch I completed the Home Tab by incorporating News API to provide Financial News by using NewsAdaptor and RecyclerView.
+
 Conclusion
 This trading app provides a comprehensive learning experience for users by incorporating various functionalities related to trading and finance. The structured layout and intuitive design aim to enhance user engagement and learning.
