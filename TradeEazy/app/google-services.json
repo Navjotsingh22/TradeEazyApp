@@ -7,18 +7,26 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:196362261492:android:3164f2e284b8c51bde5fa1",
+        "mobilesdk_app_id": "1:196362261492:android:a414cfa18be0af64de5fa1",
         "android_client_info": {
-          "package_name": "com.example.tradeeazy"
+          "package_name": "com.navjot.tradeeazy"
         }
       },
       "oauth_client": [
         {
-          "client_id": "196362261492-16ggije3vjunbtr370meskv021ofo7ct.apps.googleusercontent.com",
+          "client_id": "196362261492-jbhidauct67utnd0ca43doqslhbic45i.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.tradeeazy",
+            "package_name": "com.navjot.tradeeazy",
             "certificate_hash": "a9cc3b2c59d94deab57197c39fe68752862ff615"
+          }
+        },
+        {
+          "client_id": "196362261492-mlqn3mdmd8ciuudc70d4no3sn83dgqll.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.navjot.tradeeazy",
+            "certificate_hash": "b3de328c03985a65a666ba1bce2289d5608f1e2b"
           }
         },
         {

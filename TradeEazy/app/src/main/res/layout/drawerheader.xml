@@ -32,7 +32,7 @@
         android:id="@+id/usernameTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Guest"
+        android:text="Dear Member"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="5dp"
         android:textColor="@color/black"
@@ -45,7 +45,7 @@
         android:id="@+id/emailTextView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="anonymous@xyz.com"
+        android:text="Welcome to tradeazy"
         android:fontFamily="@font/cooper"
         android:textColor="@color/black"
         android:textSize="20sp" />

@@ -16,6 +16,7 @@
             android:id="@+id/buttondrawer"
             android:layout_width="48dp"
             android:layout_height="48dp"
+            android:hint="@string/menu"
             android:backgroundTint="@color/black"
             android:src="@drawable/menu"
             android:layout_marginRight="10dp"/>
